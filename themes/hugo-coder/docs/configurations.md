@@ -1,33 +1,34 @@
 # Configurations
 
-* [About Hugo Configurations](#about-hugo-configurations)
-  * [Analytics](/docs/analytics.md)
-  * [Commenting Systems](#commenting-systems)
-    * [Disqus](#disqus)
-    * [Commento](#commento)
-    * [Utterances](#utterances)
-    * [Giscus](#giscus)
-* [Syntax Highlight](#syntax-highlight)
-* [Theme Parameters](#theme-parameters)
-  * [Social Icons Configuration](#social-icons-configuration)
-  * [Menu Items Configurations](#menu-items-configurations)
-  * [CSP](#csp)
-* [Complete Example](#complete-example)
-* [Front Matter](#front-matter)
-  * [Posts](#posts)
+- [Configurations](#configurations)
+  - [About Hugo Configurations](#about-hugo-configurations)
+    - [Commenting Systems](#commenting-systems)
+      - [Disqus](#disqus)
+      - [Commento](#commento)
+      - [Utterances](#utterances)
+      - [Giscus](#giscus)
+      - [Telegram](#telegram)
+  - [Syntax Highlight](#syntax-highlight)
+  - [Theme Parameters](#theme-parameters)
+    - [Social Icons Configuration](#social-icons-configuration)
+    - [Menu Items Configurations](#menu-items-configurations)
+    - [CSP](#csp)
+  - [Complete Example](#complete-example)
+  - [Front Matter](#front-matter)
+    - [Posts](#posts)
 
 ## About Hugo Configurations
 
 This theme supports:
 
-* [Analytics](/docs/analytics.md)
+- [Analytics](/docs/analytics.md)
 
-* Commenting Systems
-  * [Disqus](https://disqus.com/)
-  * [Commento](https://commento.io/)
-  * [Utterances](https://utteranc.es/)
-  * [Giscus](https://giscus.app/)
-  * [Telegram](https://comments.app/)
+- Commenting Systems
+  - [Disqus](https://disqus.com/)
+  - [Commento](https://commento.io/)
+  - [Utterances](https://utteranc.es/)
+  - [Giscus](https://giscus.app/)
+  - [Telegram](https://comments.app/)
 
 ### Commenting Systems
 
@@ -241,7 +242,7 @@ An example:
 This is a complete configuration example with some recommended values.
 
 ```toml
-baseurl = "http://www.example.com"
+baseurl = "https://theunconcernedape.me"
 title = "johndoe"
 theme = "hugo-coder"
 languagecode = "en"
@@ -313,11 +314,11 @@ style = "github-dark"
 
 ## Front Matter
 
-Hugo documentation: https://gohugo.io/content-management/front-matter
+Hugo documentation: <https://gohugo.io/content-management/front-matter>
 
 This theme includes one content type:
 
-* [Posts](#posts), useful to display blog posts
+- [Posts](#posts), useful to display blog posts
 
 ### Posts
 

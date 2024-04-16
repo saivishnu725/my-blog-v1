@@ -1,0 +1,81 @@
+baseurl = "http://www.theunconcernedape.me"
+title = "The Unconcerned Ape's Blogs"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+paginate = 20
+disqusShortname = "theunconcernedape"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+author = "The Unconcerned Ape"
+info = "I write what I feel about. Mostly silly rants."
+description = "Blog site. Built using Hugo and Coder"
+keywords = "blog,developer,personal,hugo"
+avatarurl = "/images/logo.png"
+# gravatar = "saivishnu725@gmail.com"
+hearturl = "/images/heart-with-pulse.png"
+# faviconSVG = "/img/favicon.svg"
+# favicon_32 = "/img/favicon-32x32.png"
+# favicon_16 = "/img/favicon-16x16.png"
+since = 2003
+enableTwemoji = true
+colorScheme = "dark"
+hidecolorschemetoggle = false
+
+# customCSS = ["css/custom.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+# Social links
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/saivishnu725/"
+
+[[params.social]]
+name = "Instagram"
+icon = "fa-brands fa-instagram fa-2x"
+weight = 2
+url = "https://instagram.com/_sai.vishnu_/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 3
+url = "https://linkedin.com/saivishnu725/"
+
+[[params.social]]
+name = "Personal Website"
+icon = "fa-solid fa-globe fa-2x"
+weight = 4
+url = "https://theunconcernedape.me/"
+
+# Menu links
+[[menu.main]]
+name = "Posts"
+weight = 1
+url = "posts/"
+
+[[menu.main]]
+name = "Resume"
+weight = 2
+url = "resume/"
+
+[[menu.main]]
+name = "Portfolio"
+weight = 3
+url = "https://theunconcernedape.me"
+
+[[menu.main]]
+name = "About"
+weight = 4
+url = "about/"
