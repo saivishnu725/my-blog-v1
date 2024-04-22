@@ -6,7 +6,6 @@ languagecode = "en"
 defaultcontentlanguage = "en"
 paginate = 20
 disqusShortname = "theunconcernedape"
-canonifyURLs = true
 
 
 [markup.highlight]
@@ -17,9 +16,9 @@ author = "The Unconcerned Ape"
 info = "I write what I feel about. Mostly silly rants."
 description = "Blog site. Built using Hugo and Coder"
 keywords = "blog,developer,personal,hugo"
-avatarurl = "/images/logo.png"
+avatarurl = "my-blog-v1/images/logo.png"
 # gravatar = "saivishnu725@gmail.com"
-hearturl = "/images/heart-with-pulse.png"
+hearturl = "my-blog-v1/images/heart-with-pulse.png"
 # avatarurl = "{{ 'images/logo.png' | relURL }}"
 # hearturl = "{{ 'images/heart-with-pulse.png' | relURL }}"
 # faviconSVG = "/img/favicon.svg"
