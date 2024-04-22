@@ -6,6 +6,8 @@ languagecode = "en"
 defaultcontentlanguage = "en"
 paginate = 20
 disqusShortname = "theunconcernedape"
+canonifyURLs = true
+
 
 [markup.highlight]
 style = "github-dark"
