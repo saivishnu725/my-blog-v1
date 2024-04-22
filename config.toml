@@ -76,6 +76,11 @@ weight = 3
 url = "https://theunconcernedape.me"
 
 [[menu.main]]
-name = "About"
+name = "Contact"
 weight = 4
+url = "contact/"
+
+[[menu.main]]
+name = "About"
+weight = 5
 url = "about/"
