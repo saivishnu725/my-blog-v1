@@ -11,7 +11,7 @@
       {{ i18n "licensed_under" }} {{ .Site.Params.license | safeHTML }}
     ·
     {{ end }}
-    {{ i18n "powered_by" }} <img src="{{ .Site.Params.hearturl }}" alt="love" style="height: 3rem; ">
+    {{ i18n "powered_by" }} <img src="{{ .Site.Params.hearturl | absURL }}" alt="love" style="height: 3rem; ">
     {{ if (and .Site.Params.commit .GitInfo) }}
       [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>]
     {{ end }}
