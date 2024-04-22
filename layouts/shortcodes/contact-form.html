@@ -1,0 +1,165 @@
+<hr />
+
+<h3>
+  Feel free to reach out to me using the form below (I might take some time to
+  reply tho):
+</h3>
+
+<section id="contact">
+  <div class="contact-wrapper">
+    <form id="contact-form" class="form-horizontal" role="form" action="">
+      <style>
+        #contact * {
+          margin-bottom: 5px;
+        }
+        #contact {
+          width: 100%;
+          height: 100%;
+        }
+
+        .section-header {
+          text-align: center;
+          margin: 0 auto;
+          padding: 40px 0;
+          font: 300 60px "Oswald", sans-serif;
+          color: #fff;
+          text-transform: uppercase;
+          letter-spacing: 6px;
+        }
+
+        .contact-wrapper {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin: 0 auto;
+          padding: 20px;
+          position: relative;
+          max-width: 840px;
+        }
+
+        .form-horizontal {
+          max-width: 400px;
+          font-weight: 400;
+        }
+
+        .form-control,
+        textarea {
+          max-width: 400px;
+          letter-spacing: 1px;
+        }
+
+        .send-button {
+          margin-top: 15px;
+          height: 34px;
+          width: 400px;
+          overflow: hidden;
+          transition: all 0.2s ease-in-out;
+        }
+
+        .alt-send-button {
+          width: 400px;
+          height: 34px;
+          transition: all 0.2s ease-in-out;
+        }
+
+        .send-text {
+          display: block;
+          margin-top: 10px;
+          font: 700 12px "Lato", sans-serif;
+          letter-spacing: 2px;
+        }
+
+        .alt-send-button:hover {
+          transform: translate3d(0px, -29px, 0px);
+        }
+      </style>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="NAME"
+            name="name"
+            value=""
+            required
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="EMAIL"
+            name="email"
+            value=""
+            required
+          />
+        </div>
+      </div>
+
+      <textarea
+        class="form-control"
+        rows="10"
+        id="message"
+        placeholder="MESSAGE"
+        name="message"
+        required
+      ></textarea>
+
+      <button
+        class="btn btn-primary send-button"
+        id="submit"
+        type="submit"
+        value="SEND"
+      >
+        <div class="alt-send-button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>
+      </button>
+    </form>
+    <script>
+      const form = document.querySelector("#contact-form");
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const name = document.querySelector("#name").value;
+        const email = document.querySelector("#email").value;
+        const message = document.querySelector("#message").value;
+
+        const data = {
+          name: name,
+          email: email,
+          message: message,
+        };
+
+        console.log("Data:", data);
+        console.log("JSON Data:", JSON.stringify(data));
+
+        const url =
+          "https://script.google.com/macros/s/AKfycbxDj0YEmwULFC9oid64oWeBt2RjUlQI1GVb_mNYjhqNyKmYKtSshDIFpRpN3iW42w96gA/exec";
+        console.log("trying to get a response");
+        try {
+          const response = await fetch(url, {
+            mode: "no-cors",
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+          });
+          console.log("Response:", response);
+          // const responseData = await response.json();
+          // console.log("Response:", responseData);
+        } catch (error) {
+          console.error("Error:", error);
+        }
+      });
+    </script>
+  </div>
+</section>
