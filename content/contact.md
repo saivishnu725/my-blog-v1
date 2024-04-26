@@ -9,7 +9,7 @@ Follow me here,
 
 **Github**: [@_saivishnu725_](https://github.com/saivishnu725)
 
-**LinkedIn**: [@_saivishnu725_](https://linkedin.com/saivishnu725)
+**LinkedIn**: [@_saivishnu725_](https://linkedin.com/in/saivishnu725)
 
 **Reddit**: [@_saivishnu725_](https://reddit.com/saivishnu725)
 
