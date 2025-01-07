@@ -2,7 +2,7 @@
 authors = ["The Unconcerned Ape"]
 title = "Rust Language: Things to Remember"
 description = "A brief overview of all the fundamentals of Rust"
-date = "2025-01-07 17:46:30"
+date = "2025-01-07"
 draft = false
 tags = [
     "rust",
