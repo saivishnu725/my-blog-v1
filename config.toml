@@ -72,7 +72,7 @@ url = "posts/"
 [[menu.main]]
 name = "Resume"
 weight = 2
-url = "resume/"
+url = "sai_vishnu_resume.pdf"
 
 [[menu.main]]
 name = "Portfolio"
